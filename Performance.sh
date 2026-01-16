@@ -104,5 +104,5 @@ echo "[METRIC]: Database Size"
 run_query "SELECT pg_size_pretty(pg_database_size('$DB_NAME'));"
 
 echo ""
-echo "Perfoemance audit complete"
+echo "Performance audit complete"
 exit 0
