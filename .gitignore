@@ -1,0 +1,14 @@
+PostgreSQL_SwissKnife.conf
+*.conf
+.pgpass
+
+pg_backups/
+pg_audits/
+backups/
+audits/
+
+*.service
+*.timer
+
+# Logs
+*.log
