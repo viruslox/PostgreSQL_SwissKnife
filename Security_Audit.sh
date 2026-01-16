@@ -54,7 +54,7 @@ if [[ -t 0 && -z "$TARGET_PROFILE_IDX" ]]; then
 fi
 
 echo "[INFO]: Starting audit for $PROFILE_NAME..."
-echo "[INFO]: Generaring report at $REPORT_FILE"
+echo "[INFO]: Generating report at $REPORT_FILE"
 
 {
     echo "========================================================"
